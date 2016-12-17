@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22A0478C1E0347E8009069C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A0478B1E0347E8009069C0 /* main.m */; };
+		22A0478F1E0347E8009069C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A0478E1E0347E8009069C0 /* AppDelegate.m */; };
+		22A047921E0347E8009069C0 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A047911E0347E8009069C0 /* SignInViewController.m */; };
+		22A047951E0347E8009069C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A047931E0347E8009069C0 /* Main.storyboard */; };
+		22A047971E0347E8009069C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A047961E0347E8009069C0 /* Assets.xcassets */; };
+		22A0479A1E0347E8009069C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A047981E0347E8009069C0 /* LaunchScreen.storyboard */; };
+		22A047A51E0347E8009069C0 /* BarHopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A047A41E0347E8009069C0 /* BarHopTests.m */; };
+		22A047B01E0347E8009069C0 /* BarHopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A047AF1E0347E8009069C0 /* BarHopUITests.m */; };
+		22A047BE1E035132009069C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22A047BD1E035132009069C0 /* GoogleService-Info.plist */; };
+		43506CE34C55BFD972620B02 /* libPods-BarHopUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C58675750CC4A8AAFCF82B7 /* libPods-BarHopUITests.a */; };
+		766E6F4407FCF83A62C6E539 /* libPods-BarHopTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9A9B740749676C1FB84249 /* libPods-BarHopTests.a */; };
+		90AEF8E289947DB0F490C2FE /* libPods-BarHop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1EF85DDCE20D30A743C609 /* libPods-BarHop.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22A047A11E0347E8009069C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22A0477F1E0347E7009069C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22A047861E0347E8009069C0;
+			remoteInfo = BarHop;
+		};
+		22A047AC1E0347E8009069C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22A0477F1E0347E7009069C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22A047861E0347E8009069C0;
+			remoteInfo = BarHop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22A047871E0347E8009069C0 /* BarHop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarHop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A0478B1E0347E8009069C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22A0478D1E0347E8009069C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22A0478E1E0347E8009069C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22A047901E0347E8009069C0 /* SignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		22A047911E0347E8009069C0 /* SignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		22A047941E0347E8009069C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22A047961E0347E8009069C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22A047991E0347E8009069C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22A0479B1E0347E8009069C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A047A01E0347E8009069C0 /* BarHopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarHopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A047A41E0347E8009069C0 /* BarHopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarHopTests.m; sourceTree = "<group>"; };
+		22A047A61E0347E8009069C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A047AB1E0347E8009069C0 /* BarHopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarHopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A047AF1E0347E8009069C0 /* BarHopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarHopUITests.m; sourceTree = "<group>"; };
+		22A047B11E0347E8009069C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A047BD1E035132009069C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3C58675750CC4A8AAFCF82B7 /* libPods-BarHopUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BarHopUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9A9B740749676C1FB84249 /* libPods-BarHopTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BarHopTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B0BB4F0F795D3B5D369853 /* Pods-BarHopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarHopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarHopUITests/Pods-BarHopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AB2F58678BDA4ABD6D9E7147 /* Pods-BarHopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarHopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarHopTests/Pods-BarHopTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB66D6B2AAF9997502465893 /* Pods-BarHop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarHop.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarHop/Pods-BarHop.release.xcconfig"; sourceTree = "<group>"; };
+		C9DE4C122712B4E5AE5A70F8 /* Pods-BarHop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarHop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarHop/Pods-BarHop.debug.xcconfig"; sourceTree = "<group>"; };
+		D357F89A9FAB468B7BCFCED5 /* Pods-BarHopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarHopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarHopTests/Pods-BarHopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE1EF85DDCE20D30A743C609 /* libPods-BarHop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BarHop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA84659B286D20AEEEF1B45 /* Pods-BarHopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarHopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarHopUITests/Pods-BarHopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22A047841E0347E8009069C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AEF8E289947DB0F490C2FE /* libPods-BarHop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A0479D1E0347E8009069C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				766E6F4407FCF83A62C6E539 /* libPods-BarHopTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A047A81E0347E8009069C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43506CE34C55BFD972620B02 /* libPods-BarHopUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22A0477E1E0347E7009069C0 = {
+			isa = PBXGroup;
+			children = (
+				22A047891E0347E8009069C0 /* BarHop */,
+				22A047A31E0347E8009069C0 /* BarHopTests */,
+				22A047AE1E0347E8009069C0 /* BarHopUITests */,
+				22A047881E0347E8009069C0 /* Products */,
+				ABE788837FC2CF8A284B562A /* Pods */,
+				75806431936419C54E47D7EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22A047881E0347E8009069C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22A047871E0347E8009069C0 /* BarHop.app */,
+				22A047A01E0347E8009069C0 /* BarHopTests.xctest */,
+				22A047AB1E0347E8009069C0 /* BarHopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22A047891E0347E8009069C0 /* BarHop */ = {
+			isa = PBXGroup;
+			children = (
+				22A047BD1E035132009069C0 /* GoogleService-Info.plist */,
+				22A0478D1E0347E8009069C0 /* AppDelegate.h */,
+				22A0478E1E0347E8009069C0 /* AppDelegate.m */,
+				22A047901E0347E8009069C0 /* SignInViewController.h */,
+				22A047911E0347E8009069C0 /* SignInViewController.m */,
+				22A047931E0347E8009069C0 /* Main.storyboard */,
+				22A047961E0347E8009069C0 /* Assets.xcassets */,
+				22A047981E0347E8009069C0 /* LaunchScreen.storyboard */,
+				22A0479B1E0347E8009069C0 /* Info.plist */,
+				22A0478A1E0347E8009069C0 /* Supporting Files */,
+			);
+			path = BarHop;
+			sourceTree = "<group>";
+		};
+		22A0478A1E0347E8009069C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22A0478B1E0347E8009069C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22A047A31E0347E8009069C0 /* BarHopTests */ = {
+			isa = PBXGroup;
+			children = (
+				22A047A41E0347E8009069C0 /* BarHopTests.m */,
+				22A047A61E0347E8009069C0 /* Info.plist */,
+			);
+			path = BarHopTests;
+			sourceTree = "<group>";
+		};
+		22A047AE1E0347E8009069C0 /* BarHopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22A047AF1E0347E8009069C0 /* BarHopUITests.m */,
+				22A047B11E0347E8009069C0 /* Info.plist */,
+			);
+			path = BarHopUITests;
+			sourceTree = "<group>";
+		};
+		75806431936419C54E47D7EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE1EF85DDCE20D30A743C609 /* libPods-BarHop.a */,
+				3E9A9B740749676C1FB84249 /* libPods-BarHopTests.a */,
+				3C58675750CC4A8AAFCF82B7 /* libPods-BarHopUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABE788837FC2CF8A284B562A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9DE4C122712B4E5AE5A70F8 /* Pods-BarHop.debug.xcconfig */,
+				BB66D6B2AAF9997502465893 /* Pods-BarHop.release.xcconfig */,
+				D357F89A9FAB468B7BCFCED5 /* Pods-BarHopTests.debug.xcconfig */,
+				AB2F58678BDA4ABD6D9E7147 /* Pods-BarHopTests.release.xcconfig */,
+				FBA84659B286D20AEEEF1B45 /* Pods-BarHopUITests.debug.xcconfig */,
+				41B0BB4F0F795D3B5D369853 /* Pods-BarHopUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22A047861E0347E8009069C0 /* BarHop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A047B41E0347E8009069C0 /* Build configuration list for PBXNativeTarget "BarHop" */;
+			buildPhases = (
+				F6036E321CB066094A07B21F /* [CP] Check Pods Manifest.lock */,
+				22A047831E0347E8009069C0 /* Sources */,
+				22A047841E0347E8009069C0 /* Frameworks */,
+				22A047851E0347E8009069C0 /* Resources */,
+				E38C6C5A182C82FED33DB41D /* [CP] Embed Pods Frameworks */,
+				5B2207774296772580980F49 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarHop;
+			productName = BarHop;
+			productReference = 22A047871E0347E8009069C0 /* BarHop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22A0479F1E0347E8009069C0 /* BarHopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A047B71E0347E8009069C0 /* Build configuration list for PBXNativeTarget "BarHopTests" */;
+			buildPhases = (
+				71D5A4CA321C1D62E15713C9 /* [CP] Check Pods Manifest.lock */,
+				22A0479C1E0347E8009069C0 /* Sources */,
+				22A0479D1E0347E8009069C0 /* Frameworks */,
+				22A0479E1E0347E8009069C0 /* Resources */,
+				6E509EB2C5219667CC39E990 /* [CP] Embed Pods Frameworks */,
+				33AF15C8A7AB23046AFAEA24 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22A047A21E0347E8009069C0 /* PBXTargetDependency */,
+			);
+			name = BarHopTests;
+			productName = BarHopTests;
+			productReference = 22A047A01E0347E8009069C0 /* BarHopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22A047AA1E0347E8009069C0 /* BarHopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A047BA1E0347E8009069C0 /* Build configuration list for PBXNativeTarget "BarHopUITests" */;
+			buildPhases = (
+				95B985539689DD09E219590F /* [CP] Check Pods Manifest.lock */,
+				22A047A71E0347E8009069C0 /* Sources */,
+				22A047A81E0347E8009069C0 /* Frameworks */,
+				22A047A91E0347E8009069C0 /* Resources */,
+				980D5CE9653CF969B651DCB1 /* [CP] Embed Pods Frameworks */,
+				0AF0F4B66E80FC85F52960D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22A047AD1E0347E8009069C0 /* PBXTargetDependency */,
+			);
+			name = BarHopUITests;
+			productName = BarHopUITests;
+			productReference = 22A047AB1E0347E8009069C0 /* BarHopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22A0477F1E0347E7009069C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tim;
+				TargetAttributes = {
+					22A047861E0347E8009069C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5VQD7B2D66;
+					};
+					22A0479F1E0347E8009069C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 22A047861E0347E8009069C0;
+					};
+					22A047AA1E0347E8009069C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 22A047861E0347E8009069C0;
+					};
+				};
+			};
+			buildConfigurationList = 22A047821E0347E7009069C0 /* Build configuration list for PBXProject "BarHop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22A0477E1E0347E7009069C0;
+			productRefGroup = 22A047881E0347E8009069C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22A047861E0347E8009069C0 /* BarHop */,
+				22A0479F1E0347E8009069C0 /* BarHopTests */,
+				22A047AA1E0347E8009069C0 /* BarHopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22A047851E0347E8009069C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A0479A1E0347E8009069C0 /* LaunchScreen.storyboard in Resources */,
+				22A047BE1E035132009069C0 /* GoogleService-Info.plist in Resources */,
+				22A047971E0347E8009069C0 /* Assets.xcassets in Resources */,
+				22A047951E0347E8009069C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A0479E1E0347E8009069C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A047A91E0347E8009069C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AF0F4B66E80FC85F52960D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarHopUITests/Pods-BarHopUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33AF15C8A7AB23046AFAEA24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarHopTests/Pods-BarHopTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B2207774296772580980F49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarHop/Pods-BarHop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E509EB2C5219667CC39E990 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarHopTests/Pods-BarHopTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71D5A4CA321C1D62E15713C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95B985539689DD09E219590F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		980D5CE9653CF969B651DCB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarHopUITests/Pods-BarHopUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E38C6C5A182C82FED33DB41D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarHop/Pods-BarHop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6036E321CB066094A07B21F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22A047831E0347E8009069C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A047921E0347E8009069C0 /* SignInViewController.m in Sources */,
+				22A0478F1E0347E8009069C0 /* AppDelegate.m in Sources */,
+				22A0478C1E0347E8009069C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A0479C1E0347E8009069C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A047A51E0347E8009069C0 /* BarHopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A047A71E0347E8009069C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A047B01E0347E8009069C0 /* BarHopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22A047A21E0347E8009069C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22A047861E0347E8009069C0 /* BarHop */;
+			targetProxy = 22A047A11E0347E8009069C0 /* PBXContainerItemProxy */;
+		};
+		22A047AD1E0347E8009069C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22A047861E0347E8009069C0 /* BarHop */;
+			targetProxy = 22A047AC1E0347E8009069C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22A047931E0347E8009069C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A047941E0347E8009069C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22A047981E0347E8009069C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A047991E0347E8009069C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22A047B21E0347E8009069C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22A047B31E0347E8009069C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22A047B51E0347E8009069C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DE4C122712B4E5AE5A70F8 /* Pods-BarHop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BarHop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = steinbunnyent.BarHop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		22A047B61E0347E8009069C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB66D6B2AAF9997502465893 /* Pods-BarHop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BarHop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = steinbunnyent.BarHop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		22A047B81E0347E8009069C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D357F89A9FAB468B7BCFCED5 /* Pods-BarHopTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BarHopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = steinbunnyent.BarHopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarHop.app/BarHop";
+			};
+			name = Debug;
+		};
+		22A047B91E0347E8009069C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB2F58678BDA4ABD6D9E7147 /* Pods-BarHopTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BarHopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = steinbunnyent.BarHopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarHop.app/BarHop";
+			};
+			name = Release;
+		};
+		22A047BB1E0347E8009069C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBA84659B286D20AEEEF1B45 /* Pods-BarHopUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = BarHopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = steinbunnyent.BarHopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BarHop;
+			};
+			name = Debug;
+		};
+		22A047BC1E0347E8009069C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B0BB4F0F795D3B5D369853 /* Pods-BarHopUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = BarHopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = steinbunnyent.BarHopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BarHop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22A047821E0347E7009069C0 /* Build configuration list for PBXProject "BarHop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A047B21E0347E8009069C0 /* Debug */,
+				22A047B31E0347E8009069C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A047B41E0347E8009069C0 /* Build configuration list for PBXNativeTarget "BarHop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A047B51E0347E8009069C0 /* Debug */,
+				22A047B61E0347E8009069C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A047B71E0347E8009069C0 /* Build configuration list for PBXNativeTarget "BarHopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A047B81E0347E8009069C0 /* Debug */,
+				22A047B91E0347E8009069C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A047BA1E0347E8009069C0 /* Build configuration list for PBXNativeTarget "BarHopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A047BB1E0347E8009069C0 /* Debug */,
+				22A047BC1E0347E8009069C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22A0477F1E0347E7009069C0 /* Project object */;
+}
