@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2235EF281E06118500659CDE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2235EF271E06118500659CDE /* MainViewController.m */; };
+		2235EF2B1E0624D200659CDE /* FavoriteBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2235EF2A1E0624D200659CDE /* FavoriteBarItem.m */; };
 		22A0478C1E0347E8009069C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A0478B1E0347E8009069C0 /* main.m */; };
 		22A0478F1E0347E8009069C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A0478E1E0347E8009069C0 /* AppDelegate.m */; };
 		22A047921E0347E8009069C0 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A047911E0347E8009069C0 /* SignInViewController.m */; };
@@ -39,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2235EF271E06118500659CDE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2235EF291E06119B00659CDE /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2235EF2A1E0624D200659CDE /* FavoriteBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteBarItem.m; sourceTree = "<group>"; };
+		2235EF2C1E0624E300659CDE /* FavoriteBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoriteBarItem.h; sourceTree = "<group>"; };
 		22A047871E0347E8009069C0 /* BarHop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarHop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A0478B1E0347E8009069C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22A0478D1E0347E8009069C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,11 +131,15 @@
 				22A0478E1E0347E8009069C0 /* AppDelegate.m */,
 				22A047901E0347E8009069C0 /* SignInViewController.h */,
 				22A047911E0347E8009069C0 /* SignInViewController.m */,
+				2235EF271E06118500659CDE /* MainViewController.m */,
+				2235EF291E06119B00659CDE /* MainViewController.h */,
 				22A047931E0347E8009069C0 /* Main.storyboard */,
 				22A047961E0347E8009069C0 /* Assets.xcassets */,
 				22A047981E0347E8009069C0 /* LaunchScreen.storyboard */,
 				22A0479B1E0347E8009069C0 /* Info.plist */,
 				22A0478A1E0347E8009069C0 /* Supporting Files */,
+				2235EF2A1E0624D200659CDE /* FavoriteBarItem.m */,
+				2235EF2C1E0624E300659CDE /* FavoriteBarItem.h */,
 			);
 			path = BarHop;
 			sourceTree = "<group>";
@@ -465,6 +475,8 @@
 				22A047921E0347E8009069C0 /* SignInViewController.m in Sources */,
 				22A0478F1E0347E8009069C0 /* AppDelegate.m in Sources */,
 				22A0478C1E0347E8009069C0 /* main.m in Sources */,
+				2235EF281E06118500659CDE /* MainViewController.m in Sources */,
+				2235EF2B1E0624D200659CDE /* FavoriteBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

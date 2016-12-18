@@ -12,6 +12,7 @@
 @interface SignInViewController : UIViewController <GIDSignInUIDelegate>
 
 @property(weak, nonatomic) IBOutlet GIDSignInButton *signInButton;
+@property(weak, nonatomic) IBOutlet UIButton *goButton;
 
 @end
 
